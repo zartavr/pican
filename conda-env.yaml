@@ -1,0 +1,11 @@
+# CLI command to create env using this file:
+# conda env create -f conda-env.yaml
+
+name: pican_flasher
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - pip
+  - pip:
+    - -r requirements/dev.txt
