@@ -1,11 +1,11 @@
 import click
+import sys
 
 
 @click.command()
-@click.argument('username')
-def main(username):
+@click.option('--username', default="", type=str)
+def cli(username):
     print(f"hello {username}")
 
-
 if __name__ == "__main__":
-    main()
+    cli()

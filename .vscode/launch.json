@@ -8,9 +8,9 @@
             "name": "Run pican_flasher",
             "type": "python",
             "request": "launch",
-            "program": "__main__.py",
+            "program": "src/__main__.py",
             "console": "integratedTerminal",
-            "args": ["sam"]
+            "args": "--username sam"
         },
     ],
 }
